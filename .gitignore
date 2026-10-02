@@ -1,0 +1,29 @@
+# Java / NetBeans
+build/
+dist/
+*.class
+*.jar
+*.war
+nbproject/private/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
+
+# Secrets / local configuration
+.env
+.env.*
+*.properties.local
+secrets/
+credentials/
+
+# Database dumps containing private/local data
+*.dmp
+*.dump
